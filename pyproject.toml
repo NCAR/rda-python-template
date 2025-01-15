@@ -11,6 +11,7 @@ version = "1.0.0"
 authors = [
   { name="Zaihua Ji", email="zji@ucar.edu" },
 ]
+
 description = "RDA Python code template to create new and modify existing other RDA python packages"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -25,4 +26,5 @@ classifiers = [
 "Homepage" = "https://github.com/NCAR/rda-python-template"
 
 [project.scripts]
-startscript = "rda_python_template.startscript:main"
+hello_world = "rda_python_template.hello_world:main"
+
