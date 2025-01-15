@@ -6,8 +6,9 @@ def main():
    str = get_string('Hua')
    print(str)
 
-   def get_string(name):
-      return name + ": Hello World!"
+def get_string(name):
+   return name + ": Hello World!"
+
 #
 # call main() to start program
 #
