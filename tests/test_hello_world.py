@@ -1,7 +1,7 @@
 # test_hello_world.py
 
 import pytest
-from rda_python_template.hello_world import get_string
+from src.rda_python_template.hello_world import get_string
 
 def test_get_string():
     assert get_string('Bob') == 'Bob: Hello World!'
