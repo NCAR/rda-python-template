@@ -23,3 +23,6 @@ classifiers = [
 
 [project.urls]
 "Homepage" = "https://github.com/NCAR/rda-python-template"
+
+[project.scripts]
+startscript = "rda_python_template.startscript:main"
