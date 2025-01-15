@@ -1,7 +1,7 @@
 [build-system]
 requires = [
   "setuptools>=61.0",
-  "rda_python_common,
+  "rda_python_common",
 ]
 build-backend = "setuptools.build_meta"
 
@@ -11,7 +11,6 @@ version = "1.0.0"
 authors = [
   { name="Zaihua Ji", email="zji@ucar.edu" },
 ]
-
 description = "RDA Python code template to create new and modify existing other RDA python packages"
 readme = "README.md"
 requires-python = ">=3.7"
