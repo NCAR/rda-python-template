@@ -1,7 +1,6 @@
 [build-system]
 requires = [
   "setuptools>=61.0",
-  "rda_python_common",
 ]
 build-backend = "setuptools.build_meta"
 
@@ -19,6 +18,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Development Status :: 5 - Production/Stable",
+]
+dependencies = [
+  "rda_python_common",
 ]
 
 [tool.setuptools]
