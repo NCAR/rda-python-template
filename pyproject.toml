@@ -23,15 +23,6 @@ dependencies = [
   "rda_python_common",
 ]
 
-[tool.setuptools]
-include-package-data = true
-
-[tool.setuptools.packages.find]
-where = ["src"]
-
-[tool.setuptools.package-data]
-"rda_python_tmplate" = ["hello_world.usg"]
-
 [project.urls]
 "Homepage" = "https://github.com/NCAR/rda-python-template"
 
